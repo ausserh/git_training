@@ -31,5 +31,5 @@ jobs:
         run: |
           ./count_fastq_reads.sh testdata/SRR4238351_subsamp.fastq > SRR4238351_subsamp.fastq.expected_count.txt
           ./count_fastq_reads.sh testdata/SRR4238355_subsamp.fastq.gz > SRR4238355_subsamp.fastq.gz.expected_count.txt
-          diff SRR4238351_subsamp.fastq.expected_count.txt testdata/diff SRR4238351_subsamp.fastq.expected_count.txt
-          diff SRR4238355_subsamp.fastq.gz.expected_count.txt testdata/diff SRR4238355_subsamp.fastq.gz.expected_count.txt     
+          diff SRR4238351_subsamp.fastq.expected_count.txt testdata/SRR4238351_subsamp.fastq.expected_count.txt
+          diff SRR4238355_subsamp.fastq.gz.expected_count.txt testdata/SRR4238355_subsamp.fastq.gz.expected_count.txt     
